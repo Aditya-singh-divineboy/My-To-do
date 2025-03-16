@@ -3,6 +3,12 @@ const button = document.querySelector("#btn").addEventListener('click', () => {
     addTodolist();
 });
 
+input.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        addTodolist();
+    }
+});
+
 const removeTodolist = (list, value) => {
     list.remove(); 
     updatedData = updatedData.filter((item) => item !== value);
