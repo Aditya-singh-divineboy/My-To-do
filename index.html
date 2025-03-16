@@ -25,11 +25,41 @@
 #btn{
     width: 75px;
     height: 25px;
-    background-color: #042a04;
+    background-color: #096009;
     color: #ffff;
     border-radius: 10px;
     border: none;
     outline: none;
+}
+.list-contaner{
+    padding: 20px;
+    padding-left: 210px;
+}
+.lists li{
+    padding: 6px;
+    border-radius: 10px;
+    position: relative;
+}
+.lists li:hover{
+    color: orange;
+    background-color: white;
+}
+.remove-btn{
+position: absolute;
+top: 2.5px;
+right: 2px;
+width: 75px;
+height: 25px;
+border-radius: 10px;
+outline: none;
+border: 0.5px solid gray;
+background-color: #aa0101;
+color: white;
+font-size: 12px;
+display: none;
+}
+.lists li:hover .remove-btn{
+    display: inline;
 }
 </style>
 <body>
