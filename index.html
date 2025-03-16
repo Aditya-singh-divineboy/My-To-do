@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list Application</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+.heading{
+    text-align: center;
+    padding-top:50px;
+}
+.input{
+    width: 400px;
+    height: 25px;
+    margin-left: 235px;
+    outline: none;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    
+}
+#btn{
+    width: 75px;
+    height: 25px;
+    background-color: #042a04;
+    color: #ffff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+</style>
+<body>
+     <h1 class="heading">MAKE YOUR TO-DO LIST</h1>
+     <input type="text" class="input">
+     <button id="btn">Add List</button>
+     <div class="list-contaner">
+        <ol class="lists"></ol>
+     </div>
+     <script src="index.js"></script>
+</body>
+</html>
