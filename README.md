@@ -43,5 +43,5 @@ project-folder/
 - Enhance UI with animations.
 
 ## Author
-Created by [Your Name]
+Created by [Aditya singh]
 
